@@ -1,0 +1,158 @@
+#drawing-canvas {
+  border: solid white;
+  background-color: white;
+  border-radius: 5px;
+}
+
+img{
+  float: right;
+  margin-right: 50px;
+  margin-top: 60px;
+  max-height: 400px;
+  max-width: 200px;
+}
+
+.boxed {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#reset-board {
+margin-top: 10px;
+}
+
+#start-timer {
+  margin-top: 10px;
+}
+
+body {
+
+  background: linear-gradient(#1a8cff, white);
+}
+
+#title {
+  font-family: 'Alex Brush', cursive;
+  font-size: 60px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-shadow: 8px 8px ##66b2ff;
+}
+
+#chat {
+  font-family: arial;
+  font-style: bold;
+  width:300px;
+  height:250px;
+  float: left;
+  margin-right: 50px;
+  margin-top: 250px;
+  position: fixed;
+  margin-bottom: 100px;
+  font-size: 20px;
+  border: solid white 2px;
+  overflow-y: auto; 
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 5px;
+  clear: right;
+}
+
+#canvas {
+  margin-top: 20px;
+
+}
+
+#options{
+  margin-left: 470px
+}
+
+
+#count {
+  display: inline-block;
+  float: right;
+  margin-top: 40px;
+  margin-right: 250px;
+  font-size: 50px;
+}
+
+#playersDiv {
+  width: 300px;
+  float: right;
+  margin-top: 40px;
+  margin-left: 60px; 
+  display:inline-block;
+  clear: right;
+}
+
+#playerlist{
+  display: inline-block;
+}
+
+#name {
+  width: 20%;
+}
+
+#message {
+  width:70%;
+  height:10%;
+}
+
+#chat-name {
+float: left;
+margin-left: 20px;
+margin-bottom: 50px;
+}
+
+.colorbox {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  margin-left: 3px;
+  margin-top: 10px;
+}
+
+ /*snow effect below*/
+
+ body { background-color:#333; }
+ #snow{
+  background: none;
+  font-family: Androgyne;
+  background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index:1;
+  -webkit-animation: snow 10s linear infinite;
+  -moz-animation: snow 10s linear infinite;
+  -ms-animation: snow 10s linear infinite;
+  animation: snow 10s linear infinite;
+ }
+ @keyframes snow {
+   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+ }
+ @-moz-keyframes snow {
+   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+   100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+ }
+ @-webkit-keyframes snow {
+   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+ }
+ @-ms-keyframes snow {
+   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+ }  
+ 
