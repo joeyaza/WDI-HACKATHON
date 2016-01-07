@@ -4,7 +4,7 @@
 ##DRAWING AT CHRISTMAS
 
 
-####Why
+####Why?
 
 The site was built by me and 3 others during a 24hr hackathon during my course at General Assembly. We chose to use Firebase as we had only used framework briefly and so wished to discover it's capabilities further. 
 
